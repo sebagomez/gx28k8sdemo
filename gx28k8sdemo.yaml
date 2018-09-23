@@ -1,0 +1,36 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: gx28k8sdemo
+  labels:
+    gx: "28"
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      gx: "28"
+  template:
+    metadata:
+      labels:
+        gx: "28"
+    spec:
+      containers:
+      - name: gx28k8sdemo
+        image: sebagomez/gx28k8sdemo:v1
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: gx28k8sdemo-service
+  labels:
+    gx: "28"
+spec:
+  selector:
+    gx: "28"
+  type: NodePort
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
