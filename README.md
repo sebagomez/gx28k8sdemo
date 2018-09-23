@@ -6,7 +6,7 @@ The presentation file is [here](res/MicroservicesContainersKubernetes.pdf), *Vid
 
 The purpose of the demo is showing some of the concepts of Kubernetes and Docker.
 
-For timing purposes, I had already created the images needed for this demo, but you can check out the source Knowledge Base from **[INSERT GXServer HERE]** and create one yourself.
+For timing purposes, I had already created the images needed for this demo, but you can check out the source Knowledge Base from [GeneXus Server](https://open.genexusserver.com/v16/kbdashboard.aspx?GX28KubernetesDemo) and create them yourself.
 
 The dockerfiles for the created images looks like the following:
 
