@@ -2,7 +2,10 @@
 
 This demo was part of the session [Microservices, containers, and Kubernetes](https://meetings.genexus.com/session/microservices-docker-containers-and-kubernetes/ENG) held on Sep 25th, 2018 in Montevideo, Uruguay, as part of the 28th GeneXus International Meeting. Read more about the conference [here](http://www.genexus.com/gx28).
 
-The presentation file is [here](res/MicroservicesContainersKubernetes.pdf), *Video recording of this session will be available soon.*
+The presentation file is [here](res/MicroservicesContainersKubernetes.pdf), and the video recording of this session is now available [here](https://www.youtube.com/watch?v=JnpA2L-Lw5E).*
+
+
+[![Microservices, Docker and Kubernetes](res/YouTube_Image_50.png?raw=true)](https://www.youtube.com/watch?v=JnpA2L-Lw5E)
 
 The purpose of the demo is showing some of the concepts of Kubernetes and Docker.
 
