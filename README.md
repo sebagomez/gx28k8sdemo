@@ -102,6 +102,12 @@ That will fire up the dashboard in your machine in port 8001, so you can now go 
 
 ![](res/dashboard.png?raw=true)
 
+In case you get a 404 error trying to access the dahboard you can create it with the followinf command:
+
+```
+kubectl create -f https://raw.githubusercontent.com/kubernetes/dashboard/master/src/deploy/recommended/kubernetes-dashboard.yaml
+```
+
 There you will see the deployment, service and running pods. Go ahead and delete some pods, see what happens.
 
 And that's it... let me know how this demo went.
