@@ -102,7 +102,7 @@ That will fire up the dashboard in your machine in port 8001, so you can now go 
 
 ![](res/dashboard.png?raw=true)
 
-In case you get a 404 error trying to access the dahboard you can create it with the followinf command:
+In case you get a 404 error trying to access the dahboard you can create it with the following command:
 
 ```
 kubectl create -f https://raw.githubusercontent.com/kubernetes/dashboard/master/src/deploy/recommended/kubernetes-dashboard.yaml
